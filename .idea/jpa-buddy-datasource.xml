@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="aa08b842-db86-4f83-b828-c3a2f75c93dd" name="bondserve" url="jdbc:postgresql://192.168.1.222:32771/bondserver" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
