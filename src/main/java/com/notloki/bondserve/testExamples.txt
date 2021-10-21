@@ -1,0 +1,21 @@
+Info Not Found:
+[{"donor":null,"error_field":"general","error_msg":"Information not found"}]
+
+Too Early:
+[{"error_msg":"You are checking in too early --
+Please try again between 5am and 2pm","donor":null,"error_field":"general"}]
+
+Too Late:
+[{"error_msg":"You are checking in too late --
+Please try again between 5am and 2pm","error_field":"general","donor":null}]
+
+Must Test:
+[{"text":"You are required to test today",
+"date":"Monday, November 09, 2020 11:32AM MST","transaction_key":"fb2e5662","required_test":1}]
+
+Not Test:
+[{"text":"Do not test today","date":"Monday, November 02, 2020 12:25PM MST",
+"transaction_key":"1e8f74a8","required_test":0}]
+
+
+
