@@ -21,14 +21,14 @@ public static boolean hasBondsBeenCheckedToday;
 public static final MediaType WWW = MediaType.parse(
             "application/x-www-form-urlencoded; charset=utf-8");
 
-    public static final String URL = "https://sentry.cordanths.com/Sentry/WebCheckin/Log";
+    public static final String URL = "xxx";
 
     public static Person getBrian() {
         Person brian = new Person();
         brian.setLang("en");
-        brian.setIvrCode("102874");
-        brian.setPhone("8662072911");
-        brian.setLastName("Burke+Jr");
+        brian.setIvrCode("xxxxxx");
+        brian.setPhone("xxx");
+        brian.setLastName("xxxx");
         return brian;    }
 public List<Person> getList() {
         return bondApi.personList();
@@ -39,9 +39,9 @@ public List<Person> getList() {
     public static Person getNick() {
         Person nick = new Person();
         nick.setLang("en");
-        nick.setIvrCode("631716");
-        nick.setPhone("8662072911");
-        nick.setLastName("Hays");
+        nick.setIvrCode("xxxxxx");
+        nick.setPhone("xxx");
+        nick.setLastName("xxxx");
         return nick;
     }
 
